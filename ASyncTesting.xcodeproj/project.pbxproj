@@ -16,6 +16,11 @@
 		C32B627F2832ADA400D8A2D5 /* ASyncTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B627E2832ADA400D8A2D5 /* ASyncTestingTests.swift */; };
 		C32B62892832ADA400D8A2D5 /* ASyncTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B62882832ADA400D8A2D5 /* ASyncTestingUITests.swift */; };
 		C32B628B2832ADA400D8A2D5 /* ASyncTestingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B628A2832ADA400D8A2D5 /* ASyncTestingUITestsLaunchTests.swift */; };
+		C32B629B2832AFE600D8A2D5 /* HelloWorldProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B629A2832AFE600D8A2D5 /* HelloWorldProvider.swift */; };
+		C32B62A12832B63600D8A2D5 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B62A02832B63600D8A2D5 /* NetworkModel.swift */; };
+		C32B62A32832BB9E00D8A2D5 /* MockNetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B62A22832BB9E00D8A2D5 /* MockNetworkProtocol.swift */; };
+		C32B62A52832BCDF00D8A2D5 /* NetworkModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B62A42832BCDF00D8A2D5 /* NetworkModelTests.swift */; };
+		C32B62A72832CBB400D8A2D5 /* TimeoutTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B62A62832CBB400D8A2D5 /* TimeoutTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		C32B62842832ADA400D8A2D5 /* ASyncTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASyncTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32B62882832ADA400D8A2D5 /* ASyncTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASyncTestingUITests.swift; sourceTree = "<group>"; };
 		C32B628A2832ADA400D8A2D5 /* ASyncTestingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASyncTestingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C32B629A2832AFE600D8A2D5 /* HelloWorldProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldProvider.swift; sourceTree = "<group>"; };
+		C32B62A02832B63600D8A2D5 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		C32B62A22832BB9E00D8A2D5 /* MockNetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkProtocol.swift; sourceTree = "<group>"; };
+		C32B62A42832BCDF00D8A2D5 /* NetworkModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModelTests.swift; sourceTree = "<group>"; };
+		C32B62A62832CBB400D8A2D5 /* TimeoutTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeoutTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,9 @@
 				C32B62702832ADA300D8A2D5 /* Assets.xcassets */,
 				C32B62722832ADA300D8A2D5 /* LaunchScreen.storyboard */,
 				C32B62752832ADA300D8A2D5 /* Info.plist */,
+				C32B629A2832AFE600D8A2D5 /* HelloWorldProvider.swift */,
+				C32B62A22832BB9E00D8A2D5 /* MockNetworkProtocol.swift */,
+				C32B62A02832B63600D8A2D5 /* NetworkModel.swift */,
 			);
 			path = ASyncTesting;
 			sourceTree = "<group>";
@@ -114,6 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				C32B627E2832ADA400D8A2D5 /* ASyncTestingTests.swift */,
+				C32B62A42832BCDF00D8A2D5 /* NetworkModelTests.swift */,
+				C32B62A62832CBB400D8A2D5 /* TimeoutTask.swift */,
 			);
 			path = ASyncTestingTests;
 			sourceTree = "<group>";
@@ -260,6 +275,9 @@
 			files = (
 				C32B626C2832ADA000D8A2D5 /* ViewController.swift in Sources */,
 				C32B62682832ADA000D8A2D5 /* AppDelegate.swift in Sources */,
+				C32B62A32832BB9E00D8A2D5 /* MockNetworkProtocol.swift in Sources */,
+				C32B629B2832AFE600D8A2D5 /* HelloWorldProvider.swift in Sources */,
+				C32B62A12832B63600D8A2D5 /* NetworkModel.swift in Sources */,
 				C32B626A2832ADA000D8A2D5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +286,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C32B62A72832CBB400D8A2D5 /* TimeoutTask.swift in Sources */,
+				C32B62A52832BCDF00D8A2D5 /* NetworkModelTests.swift in Sources */,
 				C32B627F2832ADA400D8A2D5 /* ASyncTestingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
